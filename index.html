@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  
+<!-- header -->
+  <nav>
+    <center>
+      <ul style="list-style-type: none;">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">About Me</a>
+        </li>
+        <li>
+          <a href=#>Contact Me</a>
+        </li>
+      </ul>
+    </center>
+  </nav>
+  <hr>
+  
+<!-- body -->
+  <main>
+
+    <!--     About Me -->
+    <section>
+      <h1>About Me</h1>
+      <p style="margin: auto 10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel magna molestie,
+        commodo odio gravida, pharetra
+        tortor. Sed mattis tellus quis augue aliquet rhoncus. Praesent fringilla feugiat enim, eget rhoncus nunc semper
+        id. Donec dignissim libero ac euismod auctor. Sed ac finibus nulla. Fusce ut tincidunt nulla. Donec feugiat
+        mauris
+        a nulla luctus fringilla.</p>
+    </section>
+
+    <hr>
+
+    <!--     Contact Me -->
+    <section>
+      <h1>Contact Me</h1>
+      <form method="post" style="margin: auto 15%;">
+
+        <!--         top -->
+        <section>
+          <label for="name">Name: </label>
+          <input type="text" name="name" required>
+          <br>
+          <br>
+
+          <label for="msg">Message: </label>
+          <textarea name="msg" rows="5" cols="50"></textarea>
+          <br>
+          <br>
+
+          <label for="phone">Phone Number: </label>
+          <input type="tel" name="phone" required>
+          <br>
+          <br>
+        </section>
+
+        <!--         Middle -->
+        <section>
+          <label for="doa">Date of Appointment: </label>
+          <input type="date" name="doa" required>
+          <br>
+          <br>
+        </section>
+
+        <!--         bottom -->
+        <section>
+          <label for="contact">Contact via WhatsApp of call?</label>
+          <ul>
+            <li>
+              <input type="radio" name="contact" required>
+              <label for="whatsapp">WhatsApp</label>
+            </li>
+            <li>
+              <input type="radio" name="contact" required>
+              <label for="call">Call</label>
+            </li>
+          </ul>
+
+
+          <label for="timeSlot">Select a Time slot: </label>
+          <ul>
+            <li>
+              <input type="checkbox" name="timeSlot" required>
+              <label>6AM-12PM</label>
+            </li>
+            <li>
+              <input type="checkbox" name="timeSlot" required>
+              <label>3PM-5PM</label>
+            </li>
+            <li>
+              <input type="checkbox" name="timeSlot" required>
+              <label>6PM-9PM</label>
+            </li>
+          </ul>
+        </section>
+
+        <!--         buttons -->
+        <section>
+          <center>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </center>
+        </section>
+
+      </form>
+    </section>
+
+    <hr>
+
+
+    <!--     Projects -->
+    <section>
+
+      <h1>Projects</h1>
+      <table border="1px">
+
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1.</td>
+            <td>Search Engine</td>
+            <td>
+              <ul>
+                <li>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </li>
+                <li>
+                  <p>Quisque consequat diam pretium arcu varius ultrices.
+                  </p>
+                </li>
+              </ul>
+            </td>
+            <td>
+              <a href="https://github.com/Ajmal777/SearchEngine">Search Engine</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Snake Game</td>
+            <td>
+              <ul>
+                <li>
+                  <p>Duis in massa a erat convallis venenatis.</p>
+                </li>
+                <li>
+                  <p>Nunc nec leo ac mi interdum ultricies sed nec magna.</p>
+                </li>
+              </ul>
+            </td>
+            <td>
+              <a href="https://github.com/Ajmal777/Snake-Game">Snake Game</a>
+            </td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>Text Editor</td>
+            <td>
+              <ul>
+                <li>
+                  <p>Donec rutrum turpis id ligula bibendum, nec rutrum libero semper.
+                  </p>
+                </li>
+                <li>
+                  <p>Sed volutpat lacus at efficitur dignissim.
+                  </p>
+                </li>
+              </ul>
+            </td>
+            <td>
+              <a href="https://github.com/Ajmal777/TextEditor">Text Editor</a>
+            </td>
+          </tr>
+        </tbody>
+
+      </table>
+
+    </section>
+
+  </main>
+  <hr>
+
+<!--   Footer -->
+  <footer>
+    <h3>You can also connect with me on</h3>
+
+    <section style="text-align: center;">
+      
+      <a href="">Gmail</a>
+
+      <a href="">LinkedIn</a>
+
+      <a href="">GitHub</a>
+
+    </section>
+    <br>
+    <br>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
